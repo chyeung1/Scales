@@ -3,7 +3,6 @@ void setup(){
   frameRate(12);
 }
 
-
 void draw(){
     background(240);
   for(int j = 0; j < 500; j+=45){
@@ -16,7 +15,6 @@ void draw(){
   }
 }
 
-
 void scale(int x, int y){
 noStroke();
 //color
@@ -24,7 +22,6 @@ if(Math.random() < .9)
 fill(255,255,0);
 else 
 fill(0,0,255);
-pushMatrix();
 rotate(radians((float)Math.random()*360));
 beginShape();
 //outer
@@ -48,14 +45,4 @@ vertex(x+7,y-7);
 vertex(x,y-23);
 endContour();
 endShape();
-popMatrix();
 }
-
-
-void mouseClicked(){
-println(mouseX, mouseY); 
-}
-
-
-
-
