@@ -44,5 +44,5 @@ vertex(x+23,y);
 vertex(x+7,y-7);
 vertex(x,y-23);
 endContour();
-endShape();
+endShape(CLOSE);
 }
