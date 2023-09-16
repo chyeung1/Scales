@@ -34,7 +34,6 @@ vertex(x-10,y+10);
 vertex(x-30,y);
 vertex(x-10,y-10);
 //inner
-fill(240);
 vertex(x-7,y-7);
 vertex(x-23,y);
 vertex(x-7,y+7);
